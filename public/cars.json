@@ -1,0 +1,63 @@
+{
+  "cars": [{
+      "id": "1",
+      "name": "Peugeot 208",
+      "image": "http://localhost:3000/images/VA_c4df107ef7064e498ee4256362d38055.jpg",
+      "fullImage": "http://localhost:3000/images/VA_c4df107ef7064e498ee4256362d38055.jpg",
+      "price": "$3946",
+      "model": "208",
+      "year": "2012",
+      "description":"The Peugeot 208 is a supermini (B-segment in Europe) produced by the French automaker Peugeot, and unveiled at the Geneva Motor Show in March 2012. The first 208 models were three door hatchbacks produced in 2011, at the company's new plant in Slovakia.",
+      "rating": 4,
+      "reviews": 126,      
+      "colors": ["red", "green", "blue"],
+      "condition": "New",
+      "manufacturer": "peugeot"
+    },
+    {
+      "id": "2",
+      "name": "NISMO GTR",
+      "image": "http://localhost:3000/images/orig_425765.jpg",
+      "fullImage":"http://localhost:3000/images/orig_425765.jpg",
+      "price": "$5319",
+      "model": "2007",
+      "year": "2007",
+      "description":"The Nissan GT-R (also known as Godzilla) is a 2-door 2+2 high performance vehicle produced by Nissan unveiled in 2007. It is the successor to the Nissan Skyline GT-R although no longer part of the Skyline range itself, the name having been given over to the R35 Series and having since left its racing roots",
+      "rating": 5,
+      "reviews": 54,
+      "colors": ["green", "blue"],
+      "condition": "Used",
+      "manufacturer": "Nissan"
+    },
+    {
+      "id": "3",
+      "name": "Geely CK",
+      "image": "http://localhost:3000/images/geely-ck-2005-pictures-224730.jpg",
+      "fullImage": "http://localhost:3000/images/geely-ck-2005-pictures-224730.jpg",
+      "price": "$1239",
+      "model": "CK",
+      "year": "2004",
+      "description":"The Geely CK is a 4-door, 5-seater subcompact sedan produced by the Chinese manufacturer Geely since May 2005. The CK's Chinese name, Ziyoujian, stands for 'Freedom Ship' or 'Free Cruiser'. It was sold as the Geely Otaka on the Russian market in 2007-2008.",
+      "rating": 3,
+      "reviews": 657,
+      "colors": ["red"],
+      "condition": "Used",
+      "manufacturer": "Geely"
+    },
+    {
+      "id": "4",
+      "name": "Nissan ZX",
+      "image": "http://localhost:3000/images/d7a467f5f3f5ff886a2af904a4ed44fc--nissan-zx-japanese-cars.jpg",
+      "fullImage": "http://localhost:3000/images/NISSAN-300-ZX-3109_14.jpg",
+      "price": "$2239",
+      "model": "ZX",
+      "year": "2007",
+      "description":"The Nissan 300ZX is a sports car in the Nissan Z-car family that was produced across two similar but unique generations. As with all other versions of the Z, the 300ZX was sold within the Japanese domestic market under the name Fairlady Z.",
+      "rating": 4,
+      "reviews": 87,
+      "colors": ["red"],
+      "condition": "New",
+      "manufacturer": "Nissan"
+    }
+  ]
+}
