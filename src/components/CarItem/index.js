@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import {Link} from "react-router-dom";
 
-const CarItem = ({ car, compare, limit }) => {
+const CarItem = ({ car, compare, elementsCompared }) => { 
   return (
     <div key={car.id} className="col-sm-6 col-md-4 hvr-float">
       <div className="card">
@@ -26,7 +26,7 @@ const CarItem = ({ car, compare, limit }) => {
         See Details
       </Link>
       </div>
-      <button style={{width:'100%'}} onClick={() => compare(car)} className="btn btn-outline-success">
+      <button disabled={!car.compare && elementsCompared === 3} className={!car.compare && elementsCompared === 3 ? 'disabledButton': ''} style={{width:'100%'}} onClick={() => compare(car)} className="btn btn-outline-success">
           {car.compare ? 'Remove' : 'Compare'}
         </button>
       </div>

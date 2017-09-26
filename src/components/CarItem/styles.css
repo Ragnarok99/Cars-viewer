@@ -35,3 +35,7 @@ p {
 .see-details {
   padding: 13px;
 }
+
+.btn-outline-success {
+  border-color: transparent !important;
+}
