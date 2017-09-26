@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, PropTypes } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { Link } from "react-router-dom";
@@ -13,7 +13,6 @@ class CarDetails extends Component {
 
   render() {
     const { carDets } = this.props;
-    console.log(carDets);
     if (carDets.id === undefined) {
       return <div>loading..</div>;
     }
@@ -52,7 +51,7 @@ class CarDetails extends Component {
                         </tr>
                         <tr>
                           <th scope="row">Price</th>
-                          <td className='price'>{carDets.price}</td>
+                          <td className="price">{carDets.price}</td>
                         </tr>
                         <tr>
                           <th scope="row">Model</th>
@@ -63,23 +62,22 @@ class CarDetails extends Component {
                           <td>{carDets.year}</td>
                         </tr>
                         <tr>
-                        <th scope="row">Colors</th>
-                        <td>
-                          {carDets.colors.map((color, index) => (
-                            <span key={index} className={`color ${color}`} />
-                          ))}
-                        </td>
-                      </tr>
+                          <th scope="row">Colors</th>
+                          <td>
+                            {carDets.colors.map((color, index) => (
+                              <span key={index} className={`color ${color}`} />
+                            ))}
+                          </td>
+                        </tr>
                       </tbody>
                     </table>
                     <div className="action">
-                            <Link to="/" className="go-back btn btn-primary">
-                              Go back
-                            </Link>
-                          </div>
+                      <Link to="/" className="go-back btn btn-primary">
+                        Go back
+                      </Link>
+                    </div>
                   </div>
                 </div>
-               
               </div>
             </div>
           </div>
@@ -88,6 +86,10 @@ class CarDetails extends Component {
     );
   }
 }
+
+CarDetails.PropTypes = {
+  carDets: PropTypes.object.isRequired
+};
 
 const mapStateToProps = state => {
   return {

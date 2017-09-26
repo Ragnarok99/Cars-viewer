@@ -1,4 +1,4 @@
-import React from "react";
+import React, { PropTypes } from "react";
 import "./style.css";
 const Compare = ({ cars }) => {
   return (
@@ -43,6 +43,10 @@ const Compare = ({ cars }) => {
       </div>
     </div>
   );
+};
+
+Compare.PropTypes = {
+  car: PropTypes.object.isRequired
 };
 
 export default Compare;
