@@ -45,3 +45,7 @@ p {
 .btn-outline-success {
   border-color: transparent !important;
 }
+
+strong {
+  font-size: 16px;
+}

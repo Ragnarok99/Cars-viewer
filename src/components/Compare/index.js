@@ -25,19 +25,27 @@ const Compare = ({ cars }) => {
               ))}
             </tr>
             <tr>
-              <th scope="row">Colors</th>
-              {cars.map(car => (
-                <td key={car.id}>
-                  {car.colors.map((color, index) => (
-                    <span key={index} className={`color ${color}`} />
-                  ))}
-                </td>
-              ))}
-            </tr>
-            <tr>
               <th scope="row">Manufacturer</th>
               {cars.map(car => <td key={car.id}>{car.manufacturer}</td>)}
             </tr>
+            <tr> 
+              <th scope="row">Model</th>
+              {cars.map(car => <td key={car.id}>{car.model}</td>)}
+            </tr>
+            <tr>
+              <th scope="row">Year</th>
+              {cars.map(car => <td key={car.id}>{car.year}</td>)}
+            </tr>
+            <tr>
+            <th scope="row">Colors</th>
+            {cars.map(car => (
+              <td key={car.id}>
+                {car.colors.map((color, index) => (
+                  <span key={index} className={`color ${color}`} />
+                ))}
+              </td>
+            ))}
+          </tr>
           </tbody>
         </table>
       </div>

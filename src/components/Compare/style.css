@@ -1,6 +1,24 @@
 .compare table .bg-red {
-  background-color: #ff715b; }
+    background-color: #ff715b;
+}
+
 .compare table .bg-green {
-  background-color: #48cfad; }
+    background-color: #48cfad;
+}
+
 .compare table .bg-blue {
-  background-color: #0197F6; }
+    background-color: #0197F6;
+}
+
+@media (max-width: 767px){
+    .compare table th[scope="row"] {
+         padding-left: 10px !important;
+    }
+}
+
+
+@media (max-width: 475px){
+    .compare table th[scope="row"] {
+         padding-left: 0 !important;
+    }
+}

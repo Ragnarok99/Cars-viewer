@@ -1,5 +1,6 @@
 {
-  "cars": [{
+  "cars": [
+    {
       "id": "1",
       "name": "Peugeot 208",
       "image": "http://localhost:3000/images/VA_c4df107ef7064e498ee4256362d38055.jpg",
@@ -7,10 +8,14 @@
       "price": "$3946",
       "model": "208",
       "year": "2012",
-      "description":"The Peugeot 208 is a supermini (B-segment in Europe) produced by the French automaker Peugeot, and unveiled at the Geneva Motor Show in March 2012. The first 208 models were three door hatchbacks produced in 2011, at the company's new plant in Slovakia.",
+      "description": "The Peugeot 208 is a supermini (B-segment in Europe) produced by the French automaker Peugeot, and unveiled at the Geneva Motor Show in March 2012. The first 208 models were three door hatchbacks produced in 2011, at the company's new plant in Slovakia.",
       "rating": 4,
-      "reviews": 126,      
-      "colors": ["red", "green", "blue"],
+      "reviews": 126,
+      "colors": [
+        "red",
+        "green",
+        "blue"
+      ],
       "condition": "New",
       "manufacturer": "peugeot"
     },
@@ -18,14 +23,17 @@
       "id": "2",
       "name": "NISMO GTR",
       "image": "http://localhost:3000/images/orig_425765.jpg",
-      "fullImage":"http://localhost:3000/images/orig_425765.jpg",
+      "fullImage": "http://localhost:3000/images/orig_425765.jpg",
       "price": "$5319",
       "model": "2007",
       "year": "2007",
-      "description":"The Nissan GT-R (also known as Godzilla) is a 2-door 2+2 high performance vehicle produced by Nissan unveiled in 2007. It is the successor to the Nissan Skyline GT-R although no longer part of the Skyline range itself, the name having been given over to the R35 Series and having since left its racing roots",
+      "description": "The Nissan GT-R (also known as Godzilla) is a 2-door 2+2 high performance vehicle produced by Nissan unveiled in 2007. It is the successor to the Nissan Skyline GT-R although no longer part of the Skyline range itself, the name having been given over to the R35 Series and having since left its racing roots",
       "rating": 5,
       "reviews": 54,
-      "colors": ["green", "blue"],
+      "colors": [
+        "green",
+        "blue"
+      ],
       "condition": "Used",
       "manufacturer": "Nissan"
     },
@@ -34,30 +42,103 @@
       "name": "Geely CK",
       "image": "http://localhost:3000/images/geely-ck-2005-pictures-224730.jpg",
       "fullImage": "http://localhost:3000/images/geely-ck-2005-pictures-224730.jpg",
-      "price": "$1239",
+      "price": "$12239",
       "model": "CK",
       "year": "2004",
-      "description":"The Geely CK is a 4-door, 5-seater subcompact sedan produced by the Chinese manufacturer Geely since May 2005. The CK's Chinese name, Ziyoujian, stands for 'Freedom Ship' or 'Free Cruiser'. It was sold as the Geely Otaka on the Russian market in 2007-2008.",
+      "description": "The Geely CK is a 4-door, 5-seater subcompact sedan produced by the Chinese manufacturer Geely since May 2005. The CK's Chinese name, Ziyoujian, stands for 'Freedom Ship' or 'Free Cruiser'. It was sold as the Geely Otaka on the Russian market in 2007-2008.",
       "rating": 3,
       "reviews": 657,
-      "colors": ["red"],
+      "colors": [
+        "red"
+      ],
       "condition": "Used",
       "manufacturer": "Geely"
     },
     {
       "id": "4",
-      "name": "Nissan ZX",
+      "name": "ZX",
       "image": "http://localhost:3000/images/d7a467f5f3f5ff886a2af904a4ed44fc--nissan-zx-japanese-cars.jpg",
       "fullImage": "http://localhost:3000/images/NISSAN-300-ZX-3109_14.jpg",
-      "price": "$2239",
+      "price": "$22239",
       "model": "ZX",
       "year": "2007",
-      "description":"The Nissan 300ZX is a sports car in the Nissan Z-car family that was produced across two similar but unique generations. As with all other versions of the Z, the 300ZX was sold within the Japanese domestic market under the name Fairlady Z.",
+      "description": "The Nissan 300ZX is a sports car in the Nissan Z-car family that was produced across two similar but unique generations. As with all other versions of the Z, the 300ZX was sold within the Japanese domestic market under the name Fairlady Z.",
       "rating": 4,
       "reviews": 87,
-      "colors": ["red"],
+      "colors": [
+        "red"
+      ],
       "condition": "New",
       "manufacturer": "Nissan"
+    },
+    {
+      "id": "12",
+      "name": "Huracán",
+      "image": " http://localhost:3000/images/Huracan.jpg",
+      "fullImage": "http://localhost:3000/images/Huracan.jpg",
+      "price": "$100946",
+      "model": "RTY",
+      "year": "2014",
+      "description": "The Lamborghini Huracán (Spanish for 'hurricane; [uɾaˈkan]) is a sports car built by Lamborghini, replacing Lamborghini's sales leader and most produced car, the Gallardo. The Huracán made its auto show debut at the March 2014 Geneva Auto Show, and was released in the second quarter of 2014.",
+      "rating": 43,
+      "reviews": 126,
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "condition": "New",
+      "manufacturer": "Lamborghini"
+    },
+    {
+      "id": "14",
+      "name": "Urus",
+      "image": " http://localhost:3000/images/Urus.jpg",
+      "fullImage": "http://localhost:3000/images/Urus.jpg",
+      "price": "$23946",
+      "model": "F-23",
+      "year": "2017",
+      "description": "The Lamborghini Urus is a concept SUV designed by Lamborghini and unveiled at the Auto China on 23 April 2012. The Urus was made as a replacement for the LM002, which was Lamborghini's first SUV. It will be put on the market for the 2018 model year. The name comes from the Urus, the ancestor of modern domestic cattle, also known as the aurochs.",
+      "rating": 4,
+      "reviews": 126,
+      "colors": [
+        "blue"
+      ],
+      "condition": "New",
+      "manufacturer": "Lamborghini"
+    },
+    {
+      "id": "51",
+      "name": "Aventador",
+      "image": " http://localhost:3000/images/Aventador.jpg",
+      "fullImage": "http://localhost:3000/images/Aventador.jpg",
+      "price": "$63246",
+      "model": "3763",
+      "year": "2012",
+      "description": "The Lamborghini Aventador is a mid-engined sports car produced by the Italian manufacturer Lamborghini. Launched on 28 February 2011 at the Geneva Motor Show, five months after its initial unveiling in Sant'Agata Bolognese, the vehicle, internally codenamed LB834, was designed to replace the then-decade-old Murciélago as the new flagship model.",
+      "rating": 4,
+      "reviews": 126,
+      "colors": [
+        "green"
+      ],
+      "condition": "New",
+      "manufacturer": "Lamborghini"
+    },
+    {
+      "id": "81",
+      "name": "Gallardo",
+      "image": " http://localhost:3000/images/Gallardo.jpg",
+      "fullImage": "http://localhost:3000/images/Gallardo.jpg",
+      "price": "$43946",
+      "model": "304",
+      "year": "2008",
+      "description": "The Lamborghini Gallardo (/ɡaɪˈjɑːrdoʊ/; Spanish: [ɡaˈʎaɾðo]) is a sports car built by the Italian manufacturer Lamborghini from 2003 to 2013. It is Lamborghini's best-selling model with 14,022 being built throughout its lifetime.",
+      "rating": 4,
+      "reviews": 4355,
+      "colors": [
+        "blue"
+      ],
+      "condition": "New",
+      "manufacturer": "Lamborghini"
     }
   ]
 }
